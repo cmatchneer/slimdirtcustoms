@@ -41,6 +41,8 @@ p{
     color:white;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    width:70%;
+    margin: 0 auto;
 }
 ul{
     list-style-type:none;
