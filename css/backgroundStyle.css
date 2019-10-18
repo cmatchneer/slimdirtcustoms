@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+
+}
+header{
+    background-color:red;
+    width:100%;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top:-35px;
+    
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    background-color: red;
+    box-sizing: content-box;
+    padding-top:30px;
+    font-size:50px;
+    /* width: 100%;
+    height: 5%; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+h2{
+    font-family: 'Signika', sans-serif;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* background-color: red; */
+    color:white;
+    margin: 0 auto;
+   
+    
+    
+}
+p{
+    color:white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    width: 75%;
+    height:40px;
+    margin: 0 auto;
+
+
+   
+    
+}
+li{
+    list-style-type:none;
+    font-family: 'Nunito', sans-serif;
+    float:left;
+    background-color: grey;
+    margin-left: 13%;
+    margin-bottom: 30px;
+    border: 2px groove red;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+li a{
+    background-color: grey;
+    display:block;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    font-size: 150%;
+    
+}
+li a:visited{
+    color: yellow;
+    background-color:darkred;
+}
+li a:hover{
+    color: navy;
+    background-color:goldenrod;
+    font:bold;
+
+    
+}
+#bio{
+    margin-top:50px;
+    width:100;
+    height:50px;
+    font-size:150%;
+    
+    /* background-color:pink; */
+}
+
