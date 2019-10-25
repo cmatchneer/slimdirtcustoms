@@ -102,6 +102,24 @@ label {
     border-radius: 5px;
 }
 
+.bgTitle {
+    margin-top: 5px;
+    background-color: darkred;
+    color: silver;
+    border: 2px outset gold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bgContent {
+    margin-top: 5px;
+    background-color: slategray;
+    color: black;
+    border: 2px outset gold;
+    border-radius: 5px;
+    text-align: center;
+}
+
 #thirdPic:hover {
     position: absolute;
     right: 0;
