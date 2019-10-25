@@ -17,10 +17,18 @@ img:hover {
     z-index: 1;
 }
 
+label {
+    color: silver;
+}
+
+.row {
+    position: relative;
+}
+
 .jumbotron {
     padding: 10px;
     margin-bottom: 5px;
-    border-bottom: 1px solid gold;
+    border-bottom: 1px outset gold;
 }
 
 .jumbotron-fluid {
@@ -60,14 +68,14 @@ img:hover {
 
 .navbar-brand {
     color: darkred !important;
-    border: 2px solid black;
+    border: 2px outset black;
     border-radius: 5px;
     padding: 2px;
     background-color: gold;
 }
 
 .nav-item {
-    border: 1px solid gold;
+    border: 1px outset gold;
     background-color: gold;
     border-radius: 5px;
     margin-left: 10px;
@@ -77,4 +85,24 @@ img:hover {
     border: 3px solid whitesmoke;
     background-color: black;
     border-radius: 5px;
+}
+
+.form-group {
+    border: 2px outset gold;
+    border-radius: 5px;
+    background-color: darkred;
+    margin: 1px;
+}
+
+.btn {
+    color: silver;
+    margin: 0;
+    background-color: darkred;
+    border: 2px outset gold;
+    border-radius: 5px;
+}
+
+#thirdPic:hover {
+    position: absolute;
+    right: 0;
 }
