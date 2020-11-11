@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="../assets/js/js.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Syne+Mono&family=Teko:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>My Story</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Background</title>
 </head>
 
 <body>
@@ -16,8 +21,9 @@
             <div class="jumbotron jumbotron-fluid">
 
                 <div class="container">
-                    <h1 class="display-4">A Story Told by a Unbiased Source</h1>
-                    <p class="lead">Below is a story about my past please enjoy</p>
+                    <h1 class="display-4">Reach Out to Me</h1>
+                    <p class="lead">So you made it this far stranger. Here you can reach out to me and make request of me to make you an action figure or customize one you already have or anything else reach out to me and lets make a deal
+                    </p>
                 </div>
             </div>
         </div>
@@ -38,13 +44,13 @@
                             <a class="nav-link" href="index.html">The Main Room </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">My History</a>
+                            <a class="nav-link" href="background.html">My History</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" target="_blank" href="https://www.instagram.com/slimdirte.customs/?igshid=12burnpzplbzj">More of My Work</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link " href="contact.html">Reach Me</a>
+                            <a class="nav-link " href="#">Reach Me</a>
                         </li>
                     </ul>
                 </div>
@@ -56,12 +62,24 @@
 
         </div>
         <div class="col-md-6">
-            <h1 class="bgTitle">Do I Have A Story For You</h1>
-            <p class="bgContent">Join me stranger and let me tell you a tale of the legend of Slimdirt<br> He was a man with a vast collection of figures ranging as far the eye could see. One day he decided to make some minor changes to one of his figures. This was the spark
-                that over time as he made more and more customizations to his vast collection grew into a wild raging fire. He began making figures from scratch for fun and to test his skills. Now his services are available to all who wish to have custom
-                figures made for their joy. <br> If you wish to have me...I uh mean him make you a figure reach out he is more then willing to listen to any and all who love figures </p>
-            </p>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Your Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Your Name Here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Your Email</label>
+                    <input type="email" class="form-control" id="enterEmail" placeholder="name@example.com">
+                </div>
 
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">What Are you Looking For</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+
+                </div>
+                <button type="button" class="btn btn-danger">Submit</button>
+            </form>
         </div>
     </div>
 
