@@ -2,7 +2,8 @@ body {
     background-color: black;
 }
 
-img {
+
+/* img {
     position: relative;
     margin-top: 10px;
     width: 100%;
@@ -15,7 +16,7 @@ img:hover {
     height: 450px;
     border: 5px inset gold;
     z-index: 1;
-}
+} */
 
 label {
     color: silver;
@@ -28,7 +29,7 @@ label {
 .jumbotron {
     padding: 10px;
     margin-bottom: 5px;
-    border-bottom: 1px outset gold;
+    border-bottom: 1px inset gold;
 }
 
 .jumbotron-fluid {
@@ -46,17 +47,47 @@ label {
     color: silver;
 }
 
-.navbar {
-    border: 1px solid gold;
+nav {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
 }
 
-.navbar-dark {
-    background-color: darkred !important;
+.navbar {
+    border: 1px solid gold;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex !important;
 }
 
 .nav-link {
     color: darkred !important;
     font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.menu {
+    color: darkred !important;
+    border: 2px inset darkred;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: gold;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 auto;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.nav-link {
+    background-color: darkred !important;
 }
 
 .nav-link:visited {
@@ -67,31 +98,37 @@ label {
     color: white !important;
 }
 
-.navbar-brand {
+.navbar-toggler-icon {
+    background-color: goldenrod;
+}
+
+
+/* .navbar-brand {
     color: darkred !important;
     border: 2px outset black;
     border-radius: 5px;
     padding: 2px;
     background-color: gold;
-    font-family: 'Kanit', sans-serif;
-}
+    
+} */
 
 .nav-item {
-    border: 1px outset gold;
-    background-color: gold;
+    border: 3px outset gold;
+    /* background-color: gold; */
     border-radius: 5px;
-    margin-left: 10px;
-    /* width: 130px; */
+    /* margin-left: 10px; */
+    margin-top: 2px;
+    /* width: 25%; */
+    flex: 1;
 }
 
 .nav-item:hover {
     border: 3px solid whitesmoke;
     background-color: black;
-    border-radius: 5px;
 }
 
 .form-group {
-    border: 2px outset gold;
+    border: 2px inset gold;
     border-radius: 5px;
     background-color: darkred;
     margin: 1px;
@@ -109,7 +146,7 @@ label {
     margin-top: 5px;
     background-color: darkred;
     color: silver;
-    border: 2px outset gold;
+    border: 2px inset gold;
     border-radius: 5px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
@@ -120,15 +157,10 @@ label {
     margin-top: 5px;
     background-color: slategray;
     color: black;
-    border: 2px outset gold;
+    border: 2px inset gold;
     border-radius: 5px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
-}
-
-#thirdPic:hover {
-    position: absolute;
-    right: 0;
 }
 
 .display-4 {
@@ -137,4 +169,17 @@ label {
 
 .lead {
     font-family: 'Teko', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
 }
