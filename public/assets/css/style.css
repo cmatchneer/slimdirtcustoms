@@ -37,7 +37,6 @@ nav {
 }
 
 .navbar {
-    border: 1px solid gold;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -55,12 +54,23 @@ nav {
 
 .menu {
     color: darkred !important;
-    border: 2px inset darkred;
+    border: 3px inset darkred;
     border-radius: 5px;
     padding: 2px;
     background-color: gold;
     font-family: 'Kanit', sans-serif;
     margin: 0 auto;
+    box-shadow: 0 4px black;
+}
+
+.menu:hover {
+    color: blue;
+    border: 3px inset darkblue;
+}
+
+.menu:active {
+    box-shadow: 0 1px black;
+    transform: translateY(3px);
 }
 
 button:focus {
@@ -88,19 +98,25 @@ ul {
 }
 
 .nav-item {
-    border: 3px outset gold;
+    color: darkred !important;
+    /* border: 3px outset gold; */
     /* background-color: gold; */
     border-radius: 5px;
     /* margin-left: 10px; */
     margin-top: 2px;
-    /* width: 25%; */
     flex: 1;
     margin-left: 10px;
+    box-shadow: 0 4px black;
+}
+
+.nav-item:active {
+    box-shadow: 0 1px black;
+    transform: translateY(3px);
 }
 
 .nav-item:hover {
-    border: 3px solid whitesmoke;
     background-color: black;
+    border: 3px solid darkred;
 }
 
 .form-group {
@@ -145,17 +161,4 @@ ul {
 
 .lead {
     font-family: 'Teko', sans-serif;
-}
-
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}
-
-.flex-child:first-child {
-    margin-right: 20px;
 }
