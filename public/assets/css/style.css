@@ -2,8 +2,21 @@ body {
     background-color: black;
 }
 
+img {
+    width: 50%;
+    height: 50%;
+}
+
 label {
     color: silver;
+}
+
+p {
+    font-family: 'Syne Mono', monospace;
+}
+
+h5 {
+    font-family: 'Teko', sans-serif;
 }
 
 .row {
@@ -141,7 +154,6 @@ ul {
     border: 2px inset gold;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Syne Mono', monospace;
     font-family: 'Teko', sans-serif;
 }
 
