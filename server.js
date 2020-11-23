@@ -12,6 +12,8 @@ app.use(express.static(__dirname + "/public/assets/js"));
 app.use(express.static(__dirname + "/public/assets/images"));
 
 require("./routes/htmlRoutes.js")(app);
+require("./routes/apiRoutes.js")(app);
+
 
 
 
