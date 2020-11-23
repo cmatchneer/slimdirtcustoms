@@ -6,6 +6,7 @@ var app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+//static 
 app.use(express.static("public"));
 app.use(express.static(__dirname + "/public/assets/css"));
 app.use(express.static(__dirname + "/public/assets/js"));
