@@ -2,6 +2,7 @@
 const nodemailer = require("nodemailer");
 module.exports = function(app) {
     app.post("/api/email", function(req, res) {
+            console.log(req.body)
             return res.json("done")
         })
         // async..await is not allowed in global scope, must use a wrapper
